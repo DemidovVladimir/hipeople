@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>File Upload</title>
+  </head>
+  <body>
+    <form
+      enctype="multipart/form-data"
+      action="http://localhost:{{.Port |html}}/upload"
+      method="post"
+    >
+      <input type="file" name="{{.InputName |html}}" />
+      <input type="submit" value="upload" />
+    </form>
+  </body>
+</html>
