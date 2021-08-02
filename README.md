@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/DemidovVladimir/hipeople">
-    <img src="public/gophercises_logo.png" alt="Logo">
+    <img src="static/gophercises_logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Hipeople task</h3>
